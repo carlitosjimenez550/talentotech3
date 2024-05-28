@@ -1,0 +1,71 @@
+.grid-container {
+    display: grid;
+    background-color: #e2dada;
+    grid-template-columns: auto auto auto  auto auto auto auto;
+}
+.dias {
+    background-color: rgb(189, 25, 25);
+    text-align: center;
+    color: rgb(19, 168, 168);
+    border: 1px solid black;
+}
+
+.ndias {
+    background-color: rgb(14, 219, 209);
+    text-align: center;
+    color: rgb(19, 168, 168);
+    border: 1px solid black;
+}
+
+.div {
+    background-color: rgb(189, 25, 25);
+    text-align: center;
+    color: rgb(19, 168, 168);
+    border: 1px solid black;
+}
+
+.animacion {
+    /*se crea animacion con el codigo   */
+    width: auto;
+    height: auto;
+    background-color: #03045e;
+    position: relative;
+    animation-name: example; /* es el nombre de la animacion y la que debo llamar en el key */
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+  }
+  
+  @keyframes example {
+    /*son condicionales que cuando pase el 0% de time haga tal cosa,    */
+    0% {
+      background-color: #00b4d8;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: #ffff00;
+      left: 0%;
+      top: 0px;
+    }
+    50% {
+      background-color: #caf0f8;
+      left: 0px;
+      top: 0px;
+    }
+    75% {
+      background-color: green;
+      left: 0px;
+      top: 0px;
+    }
+    100% {
+      background-color: red;
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+
+
+
+
